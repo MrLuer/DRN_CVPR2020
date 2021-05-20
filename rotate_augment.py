@@ -54,6 +54,10 @@ def main(img_dir):
     p.close()
     p.join()
 
+
+def helloworld():
+    print("hello world!")
+
 if __name__ == '__main__':
     root_img_dir = sys.argv[1]
     main(root_img_dir)
