@@ -60,5 +60,5 @@ def helloworld():
 
 if __name__ == '__main__':
     #mlgb........
-    root_img_dir = sys.argv[2]
+    root_img_dir = sys.argv[20]
     main(root_img_dir)
